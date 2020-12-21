@@ -1,0 +1,11 @@
+.Article{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    width: 100%;
+}
+.Article>img{
+    object-fit: scale-down
+}

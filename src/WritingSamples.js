@@ -9,11 +9,12 @@ function WritingSamples(){
     <div className="WritingSamples">
       {articles.map((article)=>(
         <div className="Article" key={article.id}>
-        <div  ><img className="Photo" src={article.mainphoto} alt="article-image" /></div>
+        <div  ><img className="Photo" src={article.mainphoto} /></div>
         <div className="Description">
           <p>{article.date}</p>
-          <Link to={`/writingsamples/:${article.id}`}><h1>{article.title}</h1></Link>
+          <Link className="DescriptionTitle" to={`/writingsamples/:${article.id}`}><h1>{article.title}</h1></Link>
           <p>{article.intro}</p>
+          <Link className="ReadMore" to={`/writingsamples/:${article.id}`}>Read More</Link>
         </div>
       </div>
       ))}
