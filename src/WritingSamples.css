@@ -1,0 +1,22 @@
+.WritingSamples{
+    width: 80%;
+}
+.Article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Photo{
+    object-fit: cover;
+    width: 100%;
+}
+.Article>div{
+    width: 50%;
+}

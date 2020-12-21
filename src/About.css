@@ -1,0 +1,29 @@
+.About{
+    width: 80%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+}
+.Line{
+  width: 65%;
+  border-bottom: black solid 1px; 
+  margin: 0 auto 3% auto;
+}
+.Bio,.Headshot{
+    width: 40%; 
+}
+
+.Bio{
+    margin: 5% 0;
+}
+.About-detail{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 10%
+}
+
+.Headshot{
+    max-height: 400px;
+    max-width: 300px;
+}
