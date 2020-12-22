@@ -13,8 +13,11 @@ class Article extends React.Component {
       <div>
       <h4>{result.byline}</h4>
       <h1>{result.title}</h1>
-      <img className="Photo" src={result.firstphoto} alt="article-main"/>
-      <h5>{result.firstphotocredits}</h5>
+      {(result.firstphoto)
+      ?(<><img className="Photo" src={result.firstphoto} alt="article-main"/>
+      <h5>{result.firstphotocredits}</h5></>)
+      :(null)}
+
       <h3>{result.articlePart1}</h3>
       <img className="Photo" src={result.secondphoto} alt="article-second" />
       <h5>{result.secondphotocredits}</h5>
