@@ -23,14 +23,14 @@ let articles=[
     intro: "If you asked me a month ago what my workout routine looked like, you’d be met with an abrupt change of the conversation. ",
     byline: "Written by Caitlin Gronski",
     secondphoto: Iphone,
-    articlePart1:(<p>If you asked me a month ago what my workout routine looked like, you’d be met with an abrupt change of the conversation. Sure, I hit up a boxing studio a few times a month and went for runs along the Hudson River when I was feeling particularly moody, but I’m well-aware this can hardly be called a routine. I would work out when I felt like it, and take another ‘rest day’ when I didn’t. <br/><br/>
+    articlePart1:(<div>If you asked me a month ago what my workout routine looked like, you’d be met with an abrupt change of the conversation. Sure, I hit up a boxing studio a few times a month and went for runs along the Hudson River when I was feeling particularly moody, but I’m well-aware this can hardly be called a routine. I would work out when I felt like it, and take another ‘rest day’ when I didn’t. <br/><br/>
 
         Whenever I was faced with those forms at the doctors’ office asking to mark how many times a week you exercise, I always find myself cursing my capricious Gemini nature. If only I’d been born in December, I could have been one of those type A regulars who proudly sits front row in every workout class and has inside jokes with every instructor; astrology always comes in handy when you want to dodge accountability for your own for shortcomings. <br/><br/>
         
         Yet when it came to coming up with excuses not to stick with a workout routine, that’s where I brought my A-game. I’ve talked myself into not returning to workout studios simply because an instructor smiled too much in a 7AM class or dared to make direct eye contact with me during a round of burpees – I’ve always been a firm believer that subway rules can and should be applied during any form of public physical activity. <br/><br/>
         
-        But after awhile, I made the painstaking realization that empty excuses don’t get you very far. I was desperate for a glow-up, but I needed someone to show me the light. And Kayla Itsines was just the person to do it, in all her sweaty, abs-flat-as-a-cutting-board glory.</p>),
-        articlePart2:(<p><b>How It Works </b>
+        But after awhile, I made the painstaking realization that empty excuses don’t get you very far. I was desperate for a glow-up, but I needed someone to show me the light. And Kayla Itsines was just the person to do it, in all her sweaty, abs-flat-as-a-cutting-board glory.</div>),
+        articlePart2:(<div><b>How It Works </b>
 
             Kayla Itsines’ SWEAT app includes a range of 11 programs, including BBG Beginner, BBG Stronger, LIFTING at home, and more – no great mystery here on which program I’d select. <br/><br/>
             
@@ -61,7 +61,7 @@ let articles=[
             </ul>
                With a comprehensive workout program tucked neatly into an app on my phone, I can sneak in a solid workout anywhere, anytime – without wasting a minute trying to figure out what kind of workout to do or how to do it. Long gone are the days of trying to attempt a donkey kick or a spider plank with the grace of a teenager at a school dance. I never thought I’d say this in my lifetime, but I think I’m one of those people are the gym that actually looks like they know what they’re doing. <br/><br/>
             
-            At $120 year (or $20 a month), Kayla’s SWEAT app is well-worth the investment for a (former) workout commitment-phobe like myself. I can finally face those forms at the doctor’s office with confidence and check off the ‘3-4 times a week’ box – take that, Type As of the world!</p>)
+            At $120 year (or $20 a month), Kayla’s SWEAT app is well-worth the investment for a (former) workout commitment-phobe like myself. I can finally face those forms at the doctor’s office with confidence and check off the ‘3-4 times a week’ box – take that, Type As of the world!</div>)
     }
 ]
 

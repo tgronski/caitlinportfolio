@@ -11,7 +11,6 @@ class Banner extends React.Component {
     caption: "This is the Tresemme event!"
   };
   handleMovePhoto = () => {
-    console.log("moving");
     if (this.state.id === 1) {
       this.setState({ photoname: leadership, id: 2, caption: "This is the Leadership event!"  });
     } else if (this.state.id === 2) {
@@ -30,7 +29,6 @@ class Banner extends React.Component {
   };
 
   componentDidMount() {
-    console.log("updated");
     this.interval = setInterval(() => this.handleMovePhoto(), 15000);
   }
   componentWillUnmount() {

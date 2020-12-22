@@ -14,7 +14,7 @@ function WritingSamples(){
           <p>{article.date}</p>
           <Link className="DescriptionTitle" to={`/writingsamples/:${article.id}`}><h1>{article.title}</h1></Link>
           <p>{article.intro}</p>
-          <Link className="ReadMore" to={`/writingsamples/:${article.id}`}>Read More</Link>
+          <Link className="BlueLink" to={`/writingsamples/:${article.id}`}>Read More</Link>
         </div>
       </div>
       ))}
