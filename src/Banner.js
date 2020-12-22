@@ -41,7 +41,7 @@ class Banner extends React.Component {
     return (
       <div className="Banner">
         <div>
-          <img src={this.state.photoname} />
+          <img src={this.state.photoname} alt="event-image" />
         </div>
         <p>{this.state.caption}</p>
         <br />
