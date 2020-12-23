@@ -1,11 +1,17 @@
-.Article{
+.Article-Content{
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0, auto;
-    width: 100%;
+    
 }
-.Article>img{
-    object-fit: scale-down
+.Content-Image{
+   max-width: 500px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+.Article-Content>div{
+   width: 60%;
+   margin: 0 auto;
 }

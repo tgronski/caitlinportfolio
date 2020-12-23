@@ -7,7 +7,7 @@
 }
 .Article{
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     justify-content: space-between;
 }
 
