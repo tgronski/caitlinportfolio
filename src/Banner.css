@@ -1,22 +1,22 @@
 .Banner{
-    margin: 5% auto;
-    width: 80%;
+    margin: 7% auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 img{
     padding: 0;
     margin: 0;
 }
 
-.Banner>div>img{
-    max-height: 500px;
-}
+
 .Banner>div{
     margin: 0, auto;
     display: flex;
     justify-content: center;
+    align-self: center;
+    width: 100%;
 }
 
 .Banner>div>p{
@@ -35,4 +35,31 @@ img{
 .Banner>p{
     display: flex;
     justify-content: center;
+}
+.Banner>div>img{
+    object-fit: scale-down;
+    max-width: 150px;
+}
+
+@media only screen and (min-width: 300px){
+    .Banner>div>img{
+        max-width: 200px;
+    }
+}
+@media only screen and (min-width: 400px){
+    .Banner>div>img{
+        max-width: 300px;
+    }
+}
+@media only screen and (min-width: 500px){
+    .Banner>div>img{
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .Banner>div>img{
+        max-height: 500px;
+        max-width: none;
+    }
 }

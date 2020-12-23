@@ -5,11 +5,7 @@
     justify-self: center;
     flex-direction: column;
 }
-.Article{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .Description{
     display: flex;
@@ -32,4 +28,17 @@
 .BlueLink, .BlueLink:hover, .BlueLink:visited{
     color: #36445D;
     text-decoration: underline;
+}
+
+.Article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px){
+    .Article{
+        flex-direction: row;
+    }
 }

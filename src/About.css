@@ -11,19 +11,34 @@
 }
 .Bio,.Headshot{
     width: 40%; 
+    margin: 0 auto;
 }
 
-.Bio{
+
+
+
+@media only screen and (min-width: 800px){
+    .About-detail{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row !important;
+    }
+    .Bio{
     margin: 5% 0;
-}
+    }
+    .Headshot{
+        margin: 0;
+    }
+
+} 
+
 .About-detail{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 0 10%
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .Headshot{
+    object-fit: scale-down;
     max-height: 400px;
-    max-width: 300px;
 }

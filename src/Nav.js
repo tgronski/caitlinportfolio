@@ -6,7 +6,7 @@ function Nav(){
   return (
     <div className="Nav">
         <div className="Name"><Link to="/">
-        Caitlin Gronski
+        <b>Caitlin Gronski</b>
         </Link></div>
         <div className="Pages">
         <Link to="/" className="Button">
