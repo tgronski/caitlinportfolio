@@ -30,7 +30,9 @@ let articles=[
         Yet when it came to coming up with excuses not to stick with a workout routine, that’s where I brought my A-game. I’ve talked myself into not returning to workout studios simply because an instructor smiled too much in a 7AM class or dared to make direct eye contact with me during a round of burpees – I’ve always been a firm believer that subway rules can and should be applied during any form of public physical activity. <br/><br/>
         
         But after awhile, I made the painstaking realization that empty excuses don’t get you very far. I was desperate for a glow-up, but I needed someone to show me the light. And Kayla Itsines was just the person to do it, in all her sweaty, abs-flat-as-a-cutting-board glory.</div>),
-        articlePart2:(<div><b>How It Works </b>
+        articlePart2:(<div>
+            <b>How It Works </b>
+            <br/><br/>
 
             Kayla Itsines’ SWEAT app includes a range of 11 programs, including BBG Beginner, BBG Stronger, LIFTING at home, and more – no great mystery here on which program I’d select. <br/><br/>
             
